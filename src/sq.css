@@ -5,8 +5,8 @@ body {
   height: 100vh;
   display: grid;
   align-items: center;
-  justify-items: center;
-  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%); */
+  justify-items: center; */
+  /* background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%); */
 }
 .card {
   background: #fff;
@@ -17,6 +17,7 @@ body {
   flex-direction: row;
   border-radius: 25px;
   position: relative;
+  z-index: -1;
 }
 .card h2 {
   margin: 0;
@@ -52,8 +53,6 @@ body {
   border-radius: 50%;
   border: 6px solid white;
   background-image: linear-gradient(to right top, #d45840, #d45840, #d45840, #af3857, #d45840);  left: 30px;
-  top: 15px;
-  left: 85px;
 }
 
 .card-text {
@@ -62,7 +61,7 @@ body {
 }
 
 .title-total {
-  padding: 2.5em 1.5em 1.5em 1.5em;
+    padding: -0.5em 0.5em 1.5em 1.5em;
 }
 
 path {

@@ -114,6 +114,7 @@ export class App extends Component {
     <Card/>
     <Card/>
     <Card/>
+    {/* <Card/>
     <Card/>
     <Card/>
     <Card/>
@@ -124,8 +125,7 @@ export class App extends Component {
     <Card/>
     <Card/>
     <Card/>
-    <Card/>
-    <Card/>
+    <Card/> */}
 
   </div>
 </div>
